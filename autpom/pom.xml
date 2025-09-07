@@ -85,6 +85,9 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.11.0</version>
         <configuration>
+       <suiteXmlFiles>
+      <suiteXmlFile>testng.xml</suiteXmlFile>
+           </suiteXmlFiles>
           <fork>true</fork>
           <compilerArgs>
             <arg>--add-opens</arg>
@@ -95,3 +98,4 @@
     </plugins>
   </build>
 </project>
+
