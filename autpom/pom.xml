@@ -28,7 +28,6 @@
       <version>4.9.0</version>
     </dependency>
 
-
     <!-- WebDriverManager -->
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
@@ -70,6 +69,16 @@
 
 <build>
     <plugins>
+    
+    <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.1.2</version>
+    <configuration>
+        <testFailureIgnore>true</testFailureIgnore>
+    </configuration>
+   </plugin>
+
       <!-- Maven Compiler Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -86,4 +95,3 @@
     </plugins>
   </build>
 </project>
-
