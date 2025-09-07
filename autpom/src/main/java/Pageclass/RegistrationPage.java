@@ -18,7 +18,7 @@ import java.util.NoSuchElementException;
 	    private WebDriverWait wait;
 
 	    // Locators
-	    private By firstName = By.cssSelecto("input[placeholder='First Name']");
+	    private By firstName = By.cssSelector("input[placeholder='First Name']");
 	    private By lastName = By.cssSelector("input[placeholder='Last Name']");
 	    private By address = By.cssSelector("textarea[ng-model='Adress']");
 	    private By email = By.cssSelector("input[ng-model='EmailAdress']");
@@ -173,3 +173,4 @@ import java.util.NoSuchElementException;
 	
 
 	
+
