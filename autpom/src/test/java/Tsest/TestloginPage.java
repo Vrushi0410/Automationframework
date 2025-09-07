@@ -2,10 +2,11 @@ package Tsest;
 
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.annotations.*;
-	import Pageclass.RegistrationPage;
-import base.BaseTest;
+      import org.openqa.selenium.chrome.ChromeOptions;
+     import org.testng.annotations.*;
+
+    import Pageclass.RegistrationPage;
+     import base.BaseTest;
 
 import org.testng.Assert;
 

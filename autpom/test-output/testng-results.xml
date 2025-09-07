@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T11:58:17 IST" name="Default suite" finished-at="2025-09-07T11:58:30 IST" duration-ms="12916">
+  <suite started-at="2025-09-07T14:54:44 IST" name="Suite" finished-at="2025-09-07T14:55:01 IST" duration-ms="16372">
     <groups>
     </groups>
-    <test started-at="2025-09-07T11:58:17 IST" name="Default test" finished-at="2025-09-07T11:58:30 IST" duration-ms="12916">
+    <test started-at="2025-09-07T14:54:44 IST" name="Test" finished-at="2025-09-07T14:55:01 IST" duration-ms="16372">
       <class name="Tsest.TestloginPage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tsest.TestloginPage@304bb45b]" started-at="2025-09-07T11:58:17 IST" name="setup" finished-at="2025-09-07T11:58:25 IST" duration-ms="8596" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tsest.TestloginPage@28dcca0c]" started-at="2025-09-07T14:54:44 IST" name="setup" finished-at="2025-09-07T14:54:55 IST" duration-ms="10411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initPage()[pri:0, instance:Tsest.TestloginPage@304bb45b]" started-at="2025-09-07T11:58:25 IST" name="initPage" finished-at="2025-09-07T11:58:26 IST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="initPage()[pri:0, instance:Tsest.TestloginPage@28dcca0c]" started-at="2025-09-07T14:54:55 IST" name="initPage" finished-at="2025-09-07T14:54:55 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPage -->
-        <test-method signature="testUserRegistration()[pri:0, instance:Tsest.TestloginPage@304bb45b]" started-at="2025-09-07T11:58:26 IST" name="testUserRegistration" finished-at="2025-09-07T11:58:29 IST" duration-ms="3910" status="FAIL">
+        <test-method signature="testUserRegistration()[pri:0, instance:Tsest.TestloginPage@28dcca0c]" started-at="2025-09-07T14:54:55 IST" name="testUserRegistration" finished-at="2025-09-07T14:55:00 IST" duration-ms="5474" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Form was not submitted successfully! did not expect [https://demo.automationtesting.in/Register.html] but found [https://demo.automationtesting.in/Register.html]]]>
@@ -61,11 +61,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tsest.TestloginPage@304bb45b]" started-at="2025-09-07T11:58:29 IST" name="tearDown" finished-at="2025-09-07T11:58:30 IST" duration-ms="309" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tsest.TestloginPage@28dcca0c]" started-at="2025-09-07T14:55:00 IST" name="tearDown" finished-at="2025-09-07T14:55:01 IST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tsest.TestloginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
